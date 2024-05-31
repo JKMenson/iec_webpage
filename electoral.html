@@ -28,13 +28,15 @@
       border-collapse: collapse;
       width: 100%;
     }
-    .table-bordered th, .table-bordered td {
+
+    .table-bordered th,
+    .table-bordered td {
       border: 1px solid black;
       padding: 8px;
     }
 
     .table-bordered th.column {
-      width: 100px; 
+      width: 100px;
     }
 
     .marquee-container {
@@ -43,23 +45,28 @@
       align-items: center;
       overflow: hidden;
       position: relative;
-  }
+    }
 
-  .marquee-text {
-      font-size: 2em; /* Adjust as needed */
+    .marquee-text {
+      font-size: 2em;
+      /* Adjust as needed */
       animation: bounce 2s infinite;
       position: relative;
       left: 0;
-  }
+    }
 
-  @keyframes bounce {
-      0%, 100% {
-          transform: translateX(0);
+    @keyframes bounce {
+
+      0%,
+      100% {
+        transform: translateX(0);
       }
+
       50% {
-          transform: translateX(100px); /* Adjust the bounce width as needed */
+        transform: translateX(100px);
+        /* Adjust the bounce width as needed */
       }
-  }
+    }
   </style>
 
 </head>
@@ -102,10 +109,10 @@
     </div>
   </header><!-- End Header -->
 
-<div class="container-fluid">
-  <div class="marquee-container">
-    <h3 class="marquee-text">2024 ELECTORAL ACTIVITIES</h3>
-  </div>
+  <div class="container-fluid">
+    <div class="marquee-container">
+      <h3 class="marquee-text">2024 ELECTORAL ACTIVITIES</h3>
+    </div>
     <div class="row">
       <div class="col-12 col-md-6" style="background-color: white;">
         <h4>ELECTORAL DATES - LEADERSHIP ELECTIONS</h4>
@@ -187,6 +194,14 @@
           </div>
           <div class="col-12 col-md-6">
             <img src="/images/fly2.jpeg" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <video class="embed-responsive-item" controls width="420" height="190">
+              <source src="/assets/video/jingle.mp4" type="video/mp4" >
+            </video>
           </div>
         </div>
       </div>
