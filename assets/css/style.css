@@ -1001,11 +1001,13 @@ section {
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
   padding: 30px 20px;
   background: #fff;
+  
 }
 
 .team .member img {
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 0 30px 0;
+  border-radius: 50%;
 }
 
 .team .member h4 {
